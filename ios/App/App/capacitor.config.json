@@ -1,0 +1,6 @@
+{
+	"appId": "com.beginbest.app",
+	"appName": "Begin Best",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

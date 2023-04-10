@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /makaleler
+Disallow: /home
+Disallow: /programlar
+Disallow: /ara
+Disallow: /giris
