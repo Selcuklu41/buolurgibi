@@ -35,7 +35,7 @@ export class AppComponent implements OnInit {
       this.fetchArticles()
         .pipe(
           tap((articles) => {
-            if (isPlatformBrowser(this.platformId)) {
+            if (isPlatformServer(this.platformId)) {
               this.transferState.set(this.articlesKey, articles);
             }
           })
